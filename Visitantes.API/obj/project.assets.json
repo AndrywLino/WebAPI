@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -1592,6 +1592,46 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "Visitantes.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Visitantes.Domain": "1.0.0",
+          "Visitantes.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Visitantes.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Visitantes.Application.dll": {}
+        }
+      },
+      "Visitantes.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Visitantes.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Visitantes.Domain.dll": {}
+        }
+      },
+      "Visitantes.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8",
+          "Microsoft.EntityFrameworkCore.tools": "5.0.8",
+          "Visitantes.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Visitantes.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Visitantes.Persistence.dll": {}
         }
       }
     }
@@ -5968,6 +6008,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Visitantes.Application/1.0.0": {
+      "type": "project",
+      "path": "../Visitantes.Application/Visitantes.Application.csproj",
+      "msbuildProject": "../Visitantes.Application/Visitantes.Application.csproj"
+    },
+    "Visitantes.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Visitantes.Domain/Visitantes.Domain.csproj",
+      "msbuildProject": "../Visitantes.Domain/Visitantes.Domain.csproj"
+    },
+    "Visitantes.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Visitantes.Persistence/Visitantes.Persistence.csproj",
+      "msbuildProject": "../Visitantes.Persistence/Visitantes.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5976,27 +6031,31 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "Visitantes.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\junkf\\.nuget\\packages\\": {},
+    "C:\\Users\\A217903\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\WebAPI\\Visitantes.API\\Visitantes.API.csproj",
+      "projectUniqueName": "C:\\AndrywProjects\\WebAPI\\Visitantes.API\\Visitantes.API.csproj",
       "projectName": "Visitantes.API",
-      "projectPath": "D:\\Projetos\\WebAPI\\Visitantes.API\\Visitantes.API.csproj",
-      "packagesPath": "C:\\Users\\junkf\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\WebAPI\\Visitantes.API\\obj\\",
+      "projectPath": "C:\\AndrywProjects\\WebAPI\\Visitantes.API\\Visitantes.API.csproj",
+      "packagesPath": "C:\\Users\\A217903\\.nuget\\packages\\",
+      "outputPath": "C:\\AndrywProjects\\WebAPI\\Visitantes.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\junkf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\A217903\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6010,7 +6069,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\AndrywProjects\\WebAPI\\Visitantes.Application\\Visitantes.Application.csproj": {
+              "projectPath": "C:\\AndrywProjects\\WebAPI\\Visitantes.Application\\Visitantes.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

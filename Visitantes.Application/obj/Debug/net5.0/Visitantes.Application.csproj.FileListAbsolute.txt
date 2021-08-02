@@ -1,0 +1,17 @@
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Application.deps.json
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Application.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\ref\Visitantes.Application.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Application.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.csproj.AssemblyReference.cache
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.AssemblyInfoInputs.cache
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.AssemblyInfo.cs
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.csproj.CoreCompileInputs.cache
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\ref\Visitantes.Application.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Domain.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Persistence.dll
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Domain.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Application\bin\Debug\net5.0\Visitantes.Persistence.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Application\obj\Debug\net5.0\Visitantes.Application.csproj.CopyComplete

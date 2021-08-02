@@ -1,0 +1,12 @@
+C:\AndrywProjects\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.deps.json
+C:\AndrywProjects\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.dll
+C:\AndrywProjects\WebAPI\Visitantes.Domain\bin\Debug\net5.0\ref\Visitantes.Domain.dll
+C:\AndrywProjects\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.AssemblyInfoInputs.cache
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.AssemblyInfo.cs
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.csproj.CoreCompileInputs.cache
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.dll
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\ref\Visitantes.Domain.dll
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.pdb
+C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.csproj.AssemblyReference.cache
