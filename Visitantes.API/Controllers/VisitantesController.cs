@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Visitantes.Persistence.Contexto;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 namespace Visitantes.API.Controllers
 {
@@ -21,6 +22,70 @@ namespace Visitantes.API.Controllers
             _context = context;
             _visitanteService = visitanteService;
 
+        }
+
+        [HttpPost("fotoUpload")]
+        public async Task<IActionResult> Upload(List<IFormFile> files)
+        {
+            try
+            {
+                var result = new List<FileUploadResult>();
+                foreach (var file in files)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "H:\\VisitantesFoto", file.FileName);
+                    //var path = Path.Combine(Directory.GetCurrentDirectory(), "C:\\arquivosAPI", file.FileName);
+                    var stream = new FileStream(path, FileMode.Create);
+                    await file.CopyToAsync(stream);
+                    stream.Close();
+                    result.Add(new FileUploadResult() { Name = file.FileName, Length = file.Length });
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("fotoDownload/{id}")]
+        public async Task<IActionResult> Download(string id)
+        {
+            var filePath = $"H:\\VisitantesFoto/{id}";
+
+            var bytes = await System.IO.File.ReadAllBytesAsync(filePath);
+            return File(bytes, "text/plain", Path.GetFileName(filePath));
+
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(VisitanteModel model)
+        {
+            try
+            {
+                model.Entrada = System.DateTime.Now;
+                var visitante = await _visitanteService.AddVisitantes(model);
+                if (visitante == null)
+                    return BadRequest("Erro ao cadastrar visitante.");
+
+                return Ok(visitante);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao tentar recuperar visitantes. Erro: {ex.Message}");
+            }
+        }
+
+        [HttpGet]
+        public IEnumerable<VisitanteModel> Get()
+        {
+            return _context.Visitantes;
+        }
+
+        [HttpGet("{cpfRg}")]
+        public VisitanteModel GetByCpfOrRG(string cpfRg)
+        {
+            return _context.Visitantes.FirstOrDefault(visitante => visitante.CpfRg == cpfRg);
         }
 
         //não funciona
@@ -76,44 +141,5 @@ namespace Visitantes.API.Controllers
         //     }
         // }
 
-        [HttpPost]
-        public async Task<IActionResult> Post(VisitanteModel model)
-        {
-            try
-            {
-                model.Entrada = System.DateTime.Now;
-                var visitante = await _visitanteService.AddVisitantes(model);
-                if (visitante == null)
-                    return BadRequest("Erro ao cadastrar visitante.");
-
-                return Ok(visitante);
-            }
-            catch (Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao tentar recuperar visitantes. Erro: {ex.Message}");
-            }
-        }
-
-
-        //primeira parte get funciona
-
-        // private readonly VisitantesContexto _context;
-        // public VisitantesController(VisitantesContexto context)
-        // {
-        //     _context = context;
-
-        // }
-
-        [HttpGet]
-        public IEnumerable<VisitanteModel> Get()
-        {
-            return _context.Visitantes;
-        }
-
-        [HttpGet("{cpfRg}")]
-        public VisitanteModel GetByCpfOrRG(string cpfRg)
-        {
-            return _context.Visitantes.FirstOrDefault(visitante => visitante.CpfRg == cpfRg);
-        }
     }
 }

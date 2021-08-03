@@ -27,7 +27,7 @@ namespace Visitantes.API
         {
             services.AddDbContext<VisitantesContexto>(
                 //context => context.UseSqlServer(Configuration.GetConnectionString("CasaServer"))
-                context => context.UseSqlServer(Configuration.GetConnectionString("Default"))
+                context => context.UseSqlServer(Configuration.GetConnectionString("PublishServer"))
             );
             services.AddControllers();
             services.AddScoped<IVisitanteService, VisitanteService>();

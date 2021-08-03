@@ -1,4 +1,5 @@
 C:\Compilados\WebAPI\Visitantes.API.exe
+C:\Compilados\WebAPI\wwwroot\files\2.png
 C:\Compilados\WebAPI\appsettings.Development.json
 C:\Compilados\WebAPI\appsettings.json
 C:\Compilados\WebAPI\Visitantes.API.dll
