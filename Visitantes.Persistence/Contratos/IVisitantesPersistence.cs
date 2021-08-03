@@ -8,5 +8,7 @@ namespace Visitantes.Persistence.Contratos
         Task<VisitanteModel[]> GetVisitantesAsync();
 
         Task<VisitanteModel[]> GetVisitanteByCpfRgAsync(string cpfRg);
+
+        Task<VisitanteModel> GetVisitanteByIdAsync(int id);
     }
 }

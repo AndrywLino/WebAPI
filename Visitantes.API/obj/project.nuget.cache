@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uJnkmuPf3bcwpJGcj/UFGvyUe6QN7VjqY1+JaFvRdpBFPXCX599ZPzyUydpBZasQ3cwrYVU+a5lyJPFgfeQNDw==",
+  "dgSpecHash": "6vte6RbLtlE/H5xqSEFMby6eCU86zkzJK6MfO5UXJjrV5JfFuxeRV08o1mX80i/hWgU6ti6Jyp/OR8OG/Rp50w==",
   "success": true,
-  "projectFilePath": "C:\\AndrywProjects\\WebAPI\\Visitantes.API\\Visitantes.API.csproj",
+  "projectFilePath": "C:\\AndrywProjects\\WebAPI\\visitantes.api\\Visitantes.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A217903\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\A217903\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

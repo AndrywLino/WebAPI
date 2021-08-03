@@ -34,5 +34,14 @@ namespace Visitantes.Persistence
             return await query.ToArrayAsync();
         }
 
+        public async Task<VisitanteModel> GetVisitanteByIdAsync(int id)
+        {
+            IQueryable<VisitanteModel> query = _context.Visitantes.Include(e => e.CpfRg).Include(e => e.Nome).Include(e => e.Local);
+
+            query = query.OrderBy(e => e.Id).Where(e => e.Id == id);
+
+            return await query.FirstAsync();
+        }
+
     }
 }

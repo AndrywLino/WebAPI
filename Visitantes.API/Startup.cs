@@ -5,7 +5,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Visitantes.Application;
+using Visitantes.Application.Contratos;
+using Visitantes.Persistence;
 using Visitantes.Persistence.Contexto;
+using Visitantes.Persistence.Contratos;
 
 namespace Visitantes.API
 {
@@ -26,6 +30,9 @@ namespace Visitantes.API
                 context => context.UseSqlServer(Configuration.GetConnectionString("Default"))
             );
             services.AddControllers();
+            services.AddScoped<IVisitanteService, VisitanteService>();
+            services.AddScoped<IGeralPersistence, GeralPersistence>();
+            services.AddScoped<IVisitantesPersistence, VisitantesPersistence>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Visitantes.API", Version = "v1" });

@@ -1,0 +1,3 @@
+C:\Compilados\WebAPI\Visitantes.Domain.dll
+C:\Compilados\WebAPI\Visitantes.Domain.deps.json
+C:\Compilados\WebAPI\Visitantes.Domain.pdb
