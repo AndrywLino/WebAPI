@@ -4,7 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Compilados\webapi</_PublishTargetUrl>
-    <History>True|2021-08-03T15:21:13.1943807Z;</History>
+    <_PublishTargetUrl>D:\Projetos\compilados\APIVisitantes</_PublishTargetUrl>
+    <History>True|2023-04-12T18:56:25.1166144Z;True|2023-04-12T15:36:05.9675263-03:00;True|2023-04-12T15:07:06.7184537-03:00;True|2021-08-03T12:21:13.1943807-03:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
 </Project>

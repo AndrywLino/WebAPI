@@ -10,3 +10,15 @@ C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.dl
 C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\ref\Visitantes.Domain.dll
 C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.pdb
 C:\AndrywProjects\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.csproj.AssemblyReference.cache
+D:\Projetos\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.deps.json
+D:\Projetos\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.dll
+D:\Projetos\WebAPI\Visitantes.Domain\bin\Debug\net5.0\Visitantes.Domain.pdb
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.csproj.AssemblyReference.cache
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.AssemblyInfoInputs.cache
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.AssemblyInfo.cs
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.dll
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\refint\Visitantes.Domain.dll
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\Visitantes.Domain.pdb
+D:\Projetos\WebAPI\Visitantes.Domain\obj\Debug\net5.0\ref\Visitantes.Domain.dll

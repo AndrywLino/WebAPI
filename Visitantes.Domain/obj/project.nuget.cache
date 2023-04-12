@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZA06pvNbmzb2mJcRVHNocWoJdiIPPE3KE3MsQ0sPNp4agfefTs/573yv5+Xt2JeLNmW6ycbdVCtmGcbLCrJPHA==",
+  "dgSpecHash": "xHdYX4HEDHh1YZTQORaGTiKpim/5KjA0N2I1OfsYsgdnAqhyne5CW0FHtVbrpEDXPaxUmjMtRRGFKWv60345vw==",
   "success": true,
-  "projectFilePath": "C:\\AndrywProjects\\WebAPI\\Visitantes.Domain\\Visitantes.Domain.csproj",
+  "projectFilePath": "D:\\Projetos\\WebAPI\\Visitantes.Domain\\Visitantes.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

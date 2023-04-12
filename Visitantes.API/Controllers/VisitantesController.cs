@@ -58,7 +58,7 @@ namespace Visitantes.API.Controllers
 
         }
 
-        [HttpPost]
+        [HttpPost("$$upport&&C3i")]
         public async Task<IActionResult> Post(VisitanteModel model)
         {
             try

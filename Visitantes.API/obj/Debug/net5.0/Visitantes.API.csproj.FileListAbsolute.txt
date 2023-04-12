@@ -1,11 +1,8 @@
-D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\appsettings.Development.json
-D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\appsettings.json
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.exe
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.deps.json
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.runtimeconfig.json
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.runtimeconfig.dev.json
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.dll
-D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\ref\Visitantes.API.dll
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.API.pdb
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
 D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,7 +16,6 @@ D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\Visitantes.API.csproj.CoreCom
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\Visitantes.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\Visitantes.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\Visitantes.API.StaticWebAssets.Manifest.cache
-D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\Visitantes.API.StaticWebAssets.xml
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\scopedcss\bundle\Visitantes.API.styles.css
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\Visitantes.API.RazorTargetAssemblyInfo.cache
 D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\Visitantes.API.csproj.CopyComplete
@@ -126,3 +122,17 @@ C:\AndrywProjects\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Persistence.
 C:\AndrywProjects\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Application.pdb
 C:\AndrywProjects\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Domain.pdb
 C:\AndrywProjects\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Persistence.pdb
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Application.dll
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Domain.dll
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Persistence.dll
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Application.pdb
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Domain.pdb
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\Visitantes.Persistence.pdb
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\Visitantes.API.StaticWebAssets.Pack.cache
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\msbuild.Visitantes.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\msbuild.build.Visitantes.API.props
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Visitantes.API.props
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Visitantes.API.props
+D:\Projetos\WebAPI\Visitantes.API\obj\Debug\net5.0\refint\Visitantes.API.dll
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\appsettings.Development.json
+D:\Projetos\WebAPI\Visitantes.API\bin\Debug\net5.0\appsettings.json
