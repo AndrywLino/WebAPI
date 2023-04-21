@@ -11,5 +11,6 @@ namespace Visitantes.Domain
         public DateTime Entrada { get; set; }
         public string ImageVisitante { get; set; }
         public string ImageDocumento { get; set; }
+        public string Unidade { get; set; }
     }
 }

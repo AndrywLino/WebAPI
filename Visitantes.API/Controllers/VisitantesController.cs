@@ -32,7 +32,7 @@ namespace Visitantes.API.Controllers
                 var result = new List<FileUploadResult>();
                 foreach (var file in files)
                 {
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "H:\\VisitantesFoto", file.FileName);
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "H:\\VisitantesFoto\\Visitantes\\dist\\img\\visitantes", file.FileName);
                     //var path = Path.Combine(Directory.GetCurrentDirectory(), "C:\\arquivosAPI", file.FileName);
                     var stream = new FileStream(path, FileMode.Create);
                     await file.CopyToAsync(stream);
